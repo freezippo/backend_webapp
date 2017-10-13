@@ -13,7 +13,7 @@ gem 'jwt'
 gem 'simple_command'
 gem 'tzinfo-data'
 gem 'bigdecimal'
-
+gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
